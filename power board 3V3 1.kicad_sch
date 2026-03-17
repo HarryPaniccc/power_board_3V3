@@ -8341,7 +8341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Keystone_1042_1x18650"
 			(at 22.86 34.036 90)
 			(effects
 				(font
