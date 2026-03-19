@@ -35,6 +35,8 @@
       "ratsnest",
       "footprints_front",
       "footprints_back",
+      "footprint_values",
+      "footprint_references",
       "tracks",
       "drc_errors",
       "drawing_sheet",
@@ -47,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_55557fdf_ffffffff",
+    "visible_layers": "00000000_00000000_55557fd7_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
