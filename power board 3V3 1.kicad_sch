@@ -3733,6 +3733,12 @@
 		(uuid "078c9d45-b06b-45ca-86a8-8b3b2a031e34")
 	)
 	(junction
+		(at 48.26 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0aef6812-7210-4d1a-b29f-6777542c2ba1")
+	)
+	(junction
 		(at 74.93 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3779,6 +3785,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bafc74f-f55b-42e0-bbc3-e67e20bc208e")
+	)
+	(junction
+		(at 48.26 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5beafd9b-fbb3-4060-9f86-a53855aad3f7")
 	)
 	(junction
 		(at 203.2 90.17)
@@ -4439,6 +4451,16 @@
 			(type default)
 		)
 		(uuid "6f34c8db-3b7c-43ac-97d4-4d7a2ddaca59")
+	)
+	(wire
+		(pts
+			(xy 48.26 69.85) (xy 48.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72052f7b-999a-4003-9124-296ef75cebf4")
 	)
 	(wire
 		(pts
@@ -8221,7 +8243,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c485b711-d919-4557-8dec-19faa0adc57d")
 		(property "Reference" "BT1"
@@ -8242,7 +8264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_1042_1x18650"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 22.86 34.036 90)
 			(effects
 				(font
